@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+</head>
+<body>
+    <form action="">
+        <label for="fname">Name : </label>
+        <input type="text" required>
+        <br>
+        <label for="email">Email Id : </label>
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="pwd">Password : </label>
+        <input type="password" name="pwd" id="pwd">
+        <br>
+        <label for="">Gender : </label>
+        <label for="gender">Male</label>
+        <input type="radio" name="choose" id="gender" value="Male">
+        <label for="gender">Female</label>
+        <input type="radio" name="choose" id="gender" value="Female">
+        <br>
+        <input type="button" onclick="alert('Hello Amit')" value="Click me">
+        <br>
+        <label for="favcolor">Select your color : </label>
+        <input type="color" name="favcolor" id="favcolor" value="red">
+        <br>
+        <label for="birthdate">Birthday : </label>
+        <input type="date" name="birthdate" id="birthdate">
+        <br>
+        <label for="quantity">Quantity(between 1 and 10)</label>
+        <input type="number" name="quantity" id="quantity" min="1" max="10">
+        <br>
+        <label for="vol">Volume (0 to 50) : </label>
+        <input type="range" name="vol" id="vol" min="0" max="50">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <h3>Sized Emojis</h3>
+<p style="font-size:48px">😊❤😎😉</p>
+</body>
+</html>
